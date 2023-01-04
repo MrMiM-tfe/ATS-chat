@@ -1,0 +1,22 @@
+.admin .rooms-page .rooms-list {
+    border-radius: var(--main-border-radius);
+    box-shadow: 1px 1px 5px 1px var(--color-2);
+    border: var(--light-border);
+    max-height: 500px;
+    overflow: auto;
+    background-color: var(--color-2);
+}
+
+.admin .rooms-page .rooms-list thead {
+    background-color: var(--color-2);
+    position: sticky;
+    top: 0;
+}
+
+.admin .rooms-page .rooms-list .name-col {
+    width: 480px;
+}
+
+.admin .rooms-page .rooms-list form{
+    display: flex;
+}

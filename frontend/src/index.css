@@ -1,0 +1,21 @@
+:root {
+
+    --dark-header-color: rgb(33,37,41);
+    --dark-color: rgb(16, 0, 43);
+    --main-color: rgba(36, 0, 70,1);
+
+    --color-2: rgb(60, 9, 108);
+    --color-3: rgb(90, 24, 154);
+    --color-4: rgb(123, 44, 191);
+    --color-5: rgb(157, 78, 221);
+    --color-6: rgb(199, 125, 255);
+    --color-7: rgb(224, 170, 255);
+
+    --light-border: 1px solid rgba(224, 170, 255,0.2);
+
+    --main-border-radius: 6px;
+}
+
+a {
+    text-decoration: none !important;
+}

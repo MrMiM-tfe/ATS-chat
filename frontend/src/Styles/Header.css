@@ -1,0 +1,37 @@
+.navbar-brand img{
+    height: 30px;
+}
+
+.user svg{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.user img{
+    height: 40px;
+}
+
+.dropdown-item {
+    transition: ease .4s;
+}
+
+.dropdown-logout {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: red;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    transition: ease .4s;
+}
+
+.dropdown-logout:hover {
+    color: white;
+    background-color: red;
+}

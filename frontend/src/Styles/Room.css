@@ -1,0 +1,162 @@
+
+.chating-panel {
+    /* background-color: bisque; */
+    height: calc(100vh - 56px);
+}
+
+.chating-panel .sections {
+    height: 100%;
+}
+
+.sec-left {
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,0.25);
+}
+
+.search-box {
+    height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    padding: 10px;
+}
+
+.search-box .form-control:focus {
+    box-shadow: none;
+}
+
+.rooms {
+    height: calc(100% - 60px);
+    overflow: auto;
+}
+
+.room {
+    border-bottom: 1px solid rgba(0,0,0,0.25);;
+}
+
+.room p {
+    margin: 0;
+}
+
+.new-room {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.new-room a svg {
+    font-size: 40px;
+    font-weight: 800;
+    color: blue;
+}
+
+.sec-right {
+    height: 100%;
+}
+
+.head {
+    height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    align-items: center;
+}
+
+.head img {
+    height: 100%;
+    width: auto;
+}
+
+.head p {
+    margin: 0;
+}
+
+.head .menu {
+    text-align: end;
+}
+
+.send-message {
+    height: 60px;
+    border-top: 1px solid rgba(0,0,0,0.25);
+    padding: 10px;
+}
+
+.send-message button {
+    width: 100%;
+}
+
+.send-message .form-control:focus {
+    box-shadow: none;
+}
+
+.chat {
+    height: calc(100% - 120px);
+    overflow: auto;
+}
+
+.chat .profile {
+    margin-right: 10px;
+}
+
+.chat .profile img {
+    height: 40px;
+}
+
+.chat .message {
+    margin: 10px 0;
+    display: flex;
+}
+
+.chat p {
+    margin: 0;
+}
+
+.chat .message-box {
+    background-color: rgb(193, 214, 255);
+    width: auto;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 5px;
+    min-height: 45px;
+    padding: 0 10px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.chat .user-info {
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.my-message {
+    /* text-align: end; */
+    justify-content: end;
+}
+
+.my-message .message-box {
+    margin-right: 10px;
+    background-color: rgb(252, 168, 168);
+}
+
+.my-message .profile {
+    display: none;
+}
+
+.dropdown-item {
+    transition: ease .4s;
+}
+
+.dropdown-delete {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: red;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;  
+    border: 0;
+    transition: ease .4s;
+}
+
+.dropdown-delete:hover {
+    color: white;
+    background-color: red;
+}
